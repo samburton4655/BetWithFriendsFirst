@@ -6,11 +6,27 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
+        
+    @EnvironmentObject var userData: UserData
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        Group {
+            if userData.isUserAuthenticated == .undefined {
+                Text("Loading...")
+            } else if userData.isUserAuthenticated == .signedOut {
+                LoginView()
+            } else {
+                HomeView()
+            }
+        }
+        .onAppear {
+            self.userData.configureFirabaseStateDidChange()
+        }
+        
     }
 }
 
@@ -19,3 +35,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

@@ -3,16 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286F2F5FE013AD27FE02D978 /* Pods_BetWithFriendsFirst.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5529CCC5930D47735EBD23A2 /* Pods_BetWithFriendsFirst.framework */; };
+		5319FC5C25A6AC0D005240F0 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FC5B25A6AC0D005240F0 /* UserData.swift */; };
+		5319FC6125A6AE64005240F0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FC6025A6AE64005240F0 /* LoginView.swift */; };
+		5319FC6925A6AECC005240F0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FC6825A6AECC005240F0 /* HomeView.swift */; };
+		5319FC7125A7B461005240F0 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FC7025A7B461005240F0 /* UserViewModel.swift */; };
+		5319FC7D25A7B9C8005240F0 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FC7C25A7B9C8005240F0 /* ForgotPasswordView.swift */; };
+		5319FC8225A7B9D5005240F0 /* SignInWithEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FC8125A7B9D5005240F0 /* SignInWithEmailView.swift */; };
+		5319FC8725A7B9E6005240F0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FC8625A7B9E6005240F0 /* SignUpView.swift */; };
+		5319FCAD25C8C4AD005240F0 /* FBFireStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FCAC25C8C4AD005240F0 /* FBFireStore.swift */; };
+		5319FCB225C8C4BF005240F0 /* FBFireStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FCB125C8C4BF005240F0 /* FBFireStoreError.swift */; };
+		5319FCB725C8C4C7005240F0 /* FBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FCB625C8C4C7005240F0 /* FBKeys.swift */; };
+		5319FCBC25C8C4CD005240F0 /* FBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FCBB25C8C4CD005240F0 /* FBUser.swift */; };
+		5319FCC125C8C4F4005240F0 /* FBAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FCC025C8C4F4005240F0 /* FBAuth.swift */; };
+		5319FCC625C8C4FA005240F0 /* FBAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FCC525C8C4FA005240F0 /* FBAuthError.swift */; };
+		5319FCCE25C9C7A0005240F0 /* SignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FCCD25C9C7A0005240F0 /* SignInWithAppleView.swift */; };
+		5319FCEE25CB1ABA005240F0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FCED25CB1ABA005240F0 /* AccountView.swift */; };
+		5319FCF325CB1ACE005240F0 /* BetSlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FCF225CB1ACE005240F0 /* BetSlipView.swift */; };
 		538590EB2575D05C0041CDCC /* BetWithFriendsFirstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538590EA2575D05C0041CDCC /* BetWithFriendsFirstApp.swift */; };
 		538590ED2575D05C0041CDCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538590EC2575D05C0041CDCC /* ContentView.swift */; };
 		538590EF2575D05D0041CDCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538590EE2575D05D0041CDCC /* Assets.xcassets */; };
 		538590F22575D05D0041CDCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538590F12575D05D0041CDCC /* Preview Assets.xcassets */; };
 		538590FD2575D05D0041CDCC /* BetWithFriendsFirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538590FC2575D05D0041CDCC /* BetWithFriendsFirstTests.swift */; };
 		538591082575D05D0041CDCC /* BetWithFriendsFirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538591072575D05D0041CDCC /* BetWithFriendsFirstUITests.swift */; };
+		53923FB62580573C008A45FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53923FB52580573C008A45FA /* GoogleService-Info.plist */; };
+		53923FB72580573C008A45FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53923FB52580573C008A45FA /* GoogleService-Info.plist */; };
+		53923FB82580573C008A45FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53923FB52580573C008A45FA /* GoogleService-Info.plist */; };
+		B9C94B38759E9984ED23C162 /* Pods_BetWithFriendsFirstTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2B5462CB0735EE688E4F99 /* Pods_BetWithFriendsFirstTests.framework */; };
+		F96D807072AE3A0AC42F1A6F /* Pods_BetWithFriendsFirst_BetWithFriendsFirstUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC78699A95E5B50BDFD466F /* Pods_BetWithFriendsFirst_BetWithFriendsFirstUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +55,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A349CF0CF4BD595B13C61B /* Pods-BetWithFriendsFirstTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetWithFriendsFirstTests.release.xcconfig"; path = "Target Support Files/Pods-BetWithFriendsFirstTests/Pods-BetWithFriendsFirstTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E2B5462CB0735EE688E4F99 /* Pods_BetWithFriendsFirstTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetWithFriendsFirstTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC78699A95E5B50BDFD466F /* Pods_BetWithFriendsFirst_BetWithFriendsFirstUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetWithFriendsFirst_BetWithFriendsFirstUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5319FC5B25A6AC0D005240F0 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		5319FC6025A6AE64005240F0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5319FC6825A6AECC005240F0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5319FC7025A7B461005240F0 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		5319FC7C25A7B9C8005240F0 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		5319FC8125A7B9D5005240F0 /* SignInWithEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithEmailView.swift; sourceTree = "<group>"; };
+		5319FC8625A7B9E6005240F0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5319FCAC25C8C4AD005240F0 /* FBFireStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStore.swift; sourceTree = "<group>"; };
+		5319FCB125C8C4BF005240F0 /* FBFireStoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStoreError.swift; sourceTree = "<group>"; };
+		5319FCB625C8C4C7005240F0 /* FBKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBKeys.swift; sourceTree = "<group>"; };
+		5319FCBB25C8C4CD005240F0 /* FBUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBUser.swift; sourceTree = "<group>"; };
+		5319FCC025C8C4F4005240F0 /* FBAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuth.swift; sourceTree = "<group>"; };
+		5319FCC525C8C4FA005240F0 /* FBAuthError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuthError.swift; sourceTree = "<group>"; };
+		5319FCCD25C9C7A0005240F0 /* SignInWithAppleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithAppleView.swift; sourceTree = "<group>"; };
+		5319FCED25CB1ABA005240F0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		5319FCF225CB1ACE005240F0 /* BetSlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetSlipView.swift; sourceTree = "<group>"; };
+		535DF32D258863B3006F8057 /* BetWithFriendsFirst.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetWithFriendsFirst.entitlements; sourceTree = "<group>"; };
 		538590E72575D05C0041CDCC /* BetWithFriendsFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetWithFriendsFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538590EA2575D05C0041CDCC /* BetWithFriendsFirstApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetWithFriendsFirstApp.swift; sourceTree = "<group>"; };
 		538590EC2575D05C0041CDCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +87,13 @@
 		538591032575D05D0041CDCC /* BetWithFriendsFirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetWithFriendsFirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		538591072575D05D0041CDCC /* BetWithFriendsFirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetWithFriendsFirstUITests.swift; sourceTree = "<group>"; };
 		538591092575D05D0041CDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53923FB52580573C008A45FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5529CCC5930D47735EBD23A2 /* Pods_BetWithFriendsFirst.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetWithFriendsFirst.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C7635B02C4B971C8BF99D9 /* Pods-BetWithFriendsFirst.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetWithFriendsFirst.release.xcconfig"; path = "Target Support Files/Pods-BetWithFriendsFirst/Pods-BetWithFriendsFirst.release.xcconfig"; sourceTree = "<group>"; };
+		CC6927F2EE1BB111D68AC623 /* Pods-BetWithFriendsFirst.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetWithFriendsFirst.debug.xcconfig"; path = "Target Support Files/Pods-BetWithFriendsFirst/Pods-BetWithFriendsFirst.debug.xcconfig"; sourceTree = "<group>"; };
+		D4207779D22745C0B66135DF /* Pods-BetWithFriendsFirstTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetWithFriendsFirstTests.debug.xcconfig"; path = "Target Support Files/Pods-BetWithFriendsFirstTests/Pods-BetWithFriendsFirstTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD633142C1825A50D3A150E4 /* Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests.debug.xcconfig"; path = "Target Support Files/Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests/Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA77D7022D9C0B374992C1B3 /* Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests.release.xcconfig"; path = "Target Support Files/Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests/Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286F2F5FE013AD27FE02D978 /* Pods_BetWithFriendsFirst.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9C94B38759E9984ED23C162 /* Pods_BetWithFriendsFirstTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +117,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F96D807072AE3A0AC42F1A6F /* Pods_BetWithFriendsFirst_BetWithFriendsFirstUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5319FC7525A7B94B005240F0 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				538590EC2575D05C0041CDCC /* ContentView.swift */,
+				5319FC7825A7B96B005240F0 /* Views */,
+				5319FC7725A7B963005240F0 /* Firestore */,
+				5319FC7625A7B95D005240F0 /* Auth */,
+			);
+			name = Firebase;
+			sourceTree = "<group>";
+		};
+		5319FC7625A7B95D005240F0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				5319FCC525C8C4FA005240F0 /* FBAuthError.swift */,
+				5319FCC025C8C4F4005240F0 /* FBAuth.swift */,
+				5319FC5B25A6AC0D005240F0 /* UserData.swift */,
+				5319FC7025A7B461005240F0 /* UserViewModel.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		5319FC7725A7B963005240F0 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				5319FCAC25C8C4AD005240F0 /* FBFireStore.swift */,
+				5319FCB125C8C4BF005240F0 /* FBFireStoreError.swift */,
+				5319FCB625C8C4C7005240F0 /* FBKeys.swift */,
+				5319FCBB25C8C4CD005240F0 /* FBUser.swift */,
+			);
+			name = Firestore;
+			sourceTree = "<group>";
+		};
+		5319FC7825A7B96B005240F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5319FC6025A6AE64005240F0 /* LoginView.swift */,
+				5319FC8125A7B9D5005240F0 /* SignInWithEmailView.swift */,
+				5319FCCD25C9C7A0005240F0 /* SignInWithAppleView.swift */,
+				5319FC7C25A7B9C8005240F0 /* ForgotPasswordView.swift */,
+				5319FC8625A7B9E6005240F0 /* SignUpView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5319FCEC25CB1A93005240F0 /* Tab Views */ = {
+			isa = PBXGroup;
+			children = (
+				5319FC6825A6AECC005240F0 /* HomeView.swift */,
+				5319FCF225CB1ACE005240F0 /* BetSlipView.swift */,
+				5319FCED25CB1ABA005240F0 /* AccountView.swift */,
+			);
+			name = "Tab Views";
+			sourceTree = "<group>";
+		};
 		538590DE2575D05C0041CDCC = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +186,8 @@
 				538590FB2575D05D0041CDCC /* BetWithFriendsFirstTests */,
 				538591062575D05D0041CDCC /* BetWithFriendsFirstUITests */,
 				538590E82575D05C0041CDCC /* Products */,
+				F82B9331F2A63543DA85A3FF /* Pods */,
+				DD4A8DE651EDC1CE64578E8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +205,11 @@
 			isa = PBXGroup;
 			children = (
 				538590EA2575D05C0041CDCC /* BetWithFriendsFirstApp.swift */,
-				538590EC2575D05C0041CDCC /* ContentView.swift */,
+				5319FC7525A7B94B005240F0 /* Firebase */,
+				535DF32D258863B3006F8057 /* BetWithFriendsFirst.entitlements */,
+				5319FCEC25CB1A93005240F0 /* Tab Views */,
 				538590EE2575D05D0041CDCC /* Assets.xcassets */,
+				53923FB52580573C008A45FA /* GoogleService-Info.plist */,
 				538590F32575D05D0041CDCC /* Info.plist */,
 				538590F02575D05D0041CDCC /* Preview Content */,
 			);
@@ -130,6 +242,29 @@
 			path = BetWithFriendsFirstUITests;
 			sourceTree = "<group>";
 		};
+		DD4A8DE651EDC1CE64578E8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5529CCC5930D47735EBD23A2 /* Pods_BetWithFriendsFirst.framework */,
+				3DC78699A95E5B50BDFD466F /* Pods_BetWithFriendsFirst_BetWithFriendsFirstUITests.framework */,
+				2E2B5462CB0735EE688E4F99 /* Pods_BetWithFriendsFirstTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F82B9331F2A63543DA85A3FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC6927F2EE1BB111D68AC623 /* Pods-BetWithFriendsFirst.debug.xcconfig */,
+				93C7635B02C4B971C8BF99D9 /* Pods-BetWithFriendsFirst.release.xcconfig */,
+				DD633142C1825A50D3A150E4 /* Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests.debug.xcconfig */,
+				FA77D7022D9C0B374992C1B3 /* Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests.release.xcconfig */,
+				D4207779D22745C0B66135DF /* Pods-BetWithFriendsFirstTests.debug.xcconfig */,
+				09A349CF0CF4BD595B13C61B /* Pods-BetWithFriendsFirstTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5385910C2575D05D0041CDCC /* Build configuration list for PBXNativeTarget "BetWithFriendsFirst" */;
 			buildPhases = (
+				51C578753F030EF173E36A50 /* [CP] Check Pods Manifest.lock */,
 				538590E32575D05C0041CDCC /* Sources */,
 				538590E42575D05C0041CDCC /* Frameworks */,
 				538590E52575D05C0041CDCC /* Resources */,
+				591F682DF2249EBC2198C253 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5385910F2575D05D0041CDCC /* Build configuration list for PBXNativeTarget "BetWithFriendsFirstTests" */;
 			buildPhases = (
+				E8337173E2EDDB04C840CE22 /* [CP] Check Pods Manifest.lock */,
 				538590F42575D05D0041CDCC /* Sources */,
 				538590F52575D05D0041CDCC /* Frameworks */,
 				538590F62575D05D0041CDCC /* Resources */,
@@ -172,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 538591122575D05D0041CDCC /* Build configuration list for PBXNativeTarget "BetWithFriendsFirstUITests" */;
 			buildPhases = (
+				5EB450F9498C250DF4F7954C /* [CP] Check Pods Manifest.lock */,
 				538590FF2575D05D0041CDCC /* Sources */,
 				538591002575D05D0041CDCC /* Frameworks */,
 				538591012575D05D0041CDCC /* Resources */,
+				BD9CEF87A201B03C1D09066A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +375,7 @@
 			files = (
 				538590F22575D05D0041CDCC /* Preview Assets.xcassets in Resources */,
 				538590EF2575D05D0041CDCC /* Assets.xcassets in Resources */,
+				53923FB62580573C008A45FA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53923FB72580573C008A45FA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,18 +391,138 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53923FB82580573C008A45FA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51C578753F030EF173E36A50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetWithFriendsFirst-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		591F682DF2249EBC2198C253 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetWithFriendsFirst/Pods-BetWithFriendsFirst-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetWithFriendsFirst/Pods-BetWithFriendsFirst-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BetWithFriendsFirst/Pods-BetWithFriendsFirst-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EB450F9498C250DF4F7954C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9CEF87A201B03C1D09066A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests/Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests/Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests/Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8337173E2EDDB04C840CE22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetWithFriendsFirstTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		538590E32575D05C0041CDCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5319FCC625C8C4FA005240F0 /* FBAuthError.swift in Sources */,
+				5319FCAD25C8C4AD005240F0 /* FBFireStore.swift in Sources */,
+				5319FC6125A6AE64005240F0 /* LoginView.swift in Sources */,
+				5319FCEE25CB1ABA005240F0 /* AccountView.swift in Sources */,
+				5319FCB225C8C4BF005240F0 /* FBFireStoreError.swift in Sources */,
+				5319FC7D25A7B9C8005240F0 /* ForgotPasswordView.swift in Sources */,
+				5319FCCE25C9C7A0005240F0 /* SignInWithAppleView.swift in Sources */,
 				538590ED2575D05C0041CDCC /* ContentView.swift in Sources */,
+				5319FC8225A7B9D5005240F0 /* SignInWithEmailView.swift in Sources */,
+				5319FC6925A6AECC005240F0 /* HomeView.swift in Sources */,
+				5319FC5C25A6AC0D005240F0 /* UserData.swift in Sources */,
+				5319FCF325CB1ACE005240F0 /* BetSlipView.swift in Sources */,
+				5319FC7125A7B461005240F0 /* UserViewModel.swift in Sources */,
+				5319FC8725A7B9E6005240F0 /* SignUpView.swift in Sources */,
 				538590EB2575D05C0041CDCC /* BetWithFriendsFirstApp.swift in Sources */,
+				5319FCC125C8C4F4005240F0 /* FBAuth.swift in Sources */,
+				5319FCBC25C8C4CD005240F0 /* FBUser.swift in Sources */,
+				5319FCB725C8C4C7005240F0 /* FBKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +676,11 @@
 		};
 		5385910D2575D05D0041CDCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6927F2EE1BB111D68AC623 /* Pods-BetWithFriendsFirst.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BetWithFriendsFirst/BetWithFriendsFirst.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BetWithFriendsFirst/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -435,9 +699,11 @@
 		};
 		5385910E2575D05D0041CDCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C7635B02C4B971C8BF99D9 /* Pods-BetWithFriendsFirst.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BetWithFriendsFirst/BetWithFriendsFirst.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BetWithFriendsFirst/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -456,6 +722,7 @@
 		};
 		538591102575D05D0041CDCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4207779D22745C0B66135DF /* Pods-BetWithFriendsFirstTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +744,7 @@
 		};
 		538591112575D05D0041CDCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A349CF0CF4BD595B13C61B /* Pods-BetWithFriendsFirstTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +766,7 @@
 		};
 		538591132575D05D0041CDCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD633142C1825A50D3A150E4 /* Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +786,7 @@
 		};
 		538591142575D05D0041CDCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA77D7022D9C0B374992C1B3 /* Pods-BetWithFriendsFirst-BetWithFriendsFirstUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

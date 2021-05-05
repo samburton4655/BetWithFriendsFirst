@@ -6,12 +6,23 @@
 //
 
 import SwiftUI
+import UIKit
+import Firebase
 
 @main
 struct BetWithFriendsFirstApp: App {
+        
+    init() {
+        FirebaseApp.configure()
+    }
+    
+    var userData = UserData()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(userData)
         }
     }
+    
 }
+
