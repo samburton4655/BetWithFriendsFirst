@@ -47,7 +47,7 @@ extension FBUser {
             data = [
                 FBKeys.User.uid: uid,
                 FBKeys.User.name: name,
-                FBKeys.User.email: email
+                FBKeys.User.email: email,
                 // Again, include any app specific properties that you want stored on creation
             ]
         } else {

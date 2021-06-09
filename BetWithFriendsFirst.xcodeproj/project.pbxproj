@@ -24,6 +24,24 @@
 		5319FCCE25C9C7A0005240F0 /* SignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FCCD25C9C7A0005240F0 /* SignInWithAppleView.swift */; };
 		5319FCEE25CB1ABA005240F0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FCED25CB1ABA005240F0 /* AccountView.swift */; };
 		5319FCF325CB1ACE005240F0 /* BetSlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5319FCF225CB1ACE005240F0 /* BetSlipView.swift */; };
+		536CEA8126436A8F00BBB105 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEA8026436A8F00BBB105 /* HomePage.swift */; };
+		536CEA8C2643707700BBB105 /* LogoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEA8B2643707700BBB105 /* LogoBar.swift */; };
+		536CEA982643746B00BBB105 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEA972643746B00BBB105 /* NavigationBarView.swift */; };
+		536CEAE0265440C300BBB105 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEADF265440C300BBB105 /* ApiClient.swift */; };
+		536CEAE5265440F200BBB105 /* SportsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEAE4265440F200BBB105 /* SportsResponse.swift */; };
+		536CEAEA26547B9300BBB105 /* SportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEAE926547B9300BBB105 /* SportsViewModel.swift */; };
+		536CEAEF2654906900BBB105 /* GamesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEAEE2654906900BBB105 /* GamesResponse.swift */; };
+		536CEAF726549A0500BBB105 /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEAF626549A0500BBB105 /* GamesViewModel.swift */; };
+		536CEAFF2654B18B00BBB105 /* SportsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEAFE2654B18B00BBB105 /* SportsBar.swift */; };
+		536CEB1D26559EEC00BBB105 /* GameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEB1C26559EEC00BBB105 /* GameCardView.swift */; };
+		536CEB222655A7BF00BBB105 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEB212655A7BE00BBB105 /* Card.swift */; };
+		536CEB282656F8DB00BBB105 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEB272656F8DB00BBB105 /* EventView.swift */; };
+		536CEB30265C887A00BBB105 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 536CEB2F265C887A00BBB105 /* Colors.xcassets */; };
+		536CEB38265C8BBB00BBB105 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEB37265C8BBB00BBB105 /* ColorManager.swift */; };
+		536CEB4426704F1F00BBB105 /* MakeTakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEB4326704F1F00BBB105 /* MakeTakeView.swift */; };
+		536CEB4A2670502200BBB105 /* SocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEB492670502200BBB105 /* SocialView.swift */; };
+		536CEB6726706C9B00BBB105 /* MakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEB6626706C9B00BBB105 /* MakeView.swift */; };
+		536CEB6C26706CA900BBB105 /* TakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536CEB6B26706CA900BBB105 /* TakeView.swift */; };
 		538590EB2575D05C0041CDCC /* BetWithFriendsFirstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538590EA2575D05C0041CDCC /* BetWithFriendsFirstApp.swift */; };
 		538590ED2575D05C0041CDCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538590EC2575D05C0041CDCC /* ContentView.swift */; };
 		538590EF2575D05D0041CDCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538590EE2575D05D0041CDCC /* Assets.xcassets */; };
@@ -75,6 +93,24 @@
 		5319FCED25CB1ABA005240F0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		5319FCF225CB1ACE005240F0 /* BetSlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetSlipView.swift; sourceTree = "<group>"; };
 		535DF32D258863B3006F8057 /* BetWithFriendsFirst.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetWithFriendsFirst.entitlements; sourceTree = "<group>"; };
+		536CEA8026436A8F00BBB105 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		536CEA8B2643707700BBB105 /* LogoBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoBar.swift; sourceTree = "<group>"; };
+		536CEA972643746B00BBB105 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		536CEADF265440C300BBB105 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		536CEAE4265440F200BBB105 /* SportsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsResponse.swift; sourceTree = "<group>"; };
+		536CEAE926547B9300BBB105 /* SportsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewModel.swift; sourceTree = "<group>"; };
+		536CEAEE2654906900BBB105 /* GamesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesResponse.swift; sourceTree = "<group>"; };
+		536CEAF626549A0500BBB105 /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
+		536CEAFE2654B18B00BBB105 /* SportsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsBar.swift; sourceTree = "<group>"; };
+		536CEB1C26559EEC00BBB105 /* GameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardView.swift; sourceTree = "<group>"; };
+		536CEB212655A7BE00BBB105 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		536CEB272656F8DB00BBB105 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		536CEB2F265C887A00BBB105 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		536CEB37265C8BBB00BBB105 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		536CEB4326704F1F00BBB105 /* MakeTakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTakeView.swift; sourceTree = "<group>"; };
+		536CEB492670502200BBB105 /* SocialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialView.swift; sourceTree = "<group>"; };
+		536CEB6626706C9B00BBB105 /* MakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeView.swift; sourceTree = "<group>"; };
+		536CEB6B26706CA900BBB105 /* TakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeView.swift; sourceTree = "<group>"; };
 		538590E72575D05C0041CDCC /* BetWithFriendsFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetWithFriendsFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538590EA2575D05C0041CDCC /* BetWithFriendsFirstApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetWithFriendsFirstApp.swift; sourceTree = "<group>"; };
 		538590EC2575D05C0041CDCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,7 +163,6 @@
 		5319FC7525A7B94B005240F0 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				538590EC2575D05C0041CDCC /* ContentView.swift */,
 				5319FC7825A7B96B005240F0 /* Views */,
 				5319FC7725A7B963005240F0 /* Firestore */,
 				5319FC7625A7B95D005240F0 /* Auth */,
@@ -172,11 +207,114 @@
 		5319FCEC25CB1A93005240F0 /* Tab Views */ = {
 			isa = PBXGroup;
 			children = (
-				5319FC6825A6AECC005240F0 /* HomeView.swift */,
-				5319FCF225CB1ACE005240F0 /* BetSlipView.swift */,
-				5319FCED25CB1ABA005240F0 /* AccountView.swift */,
+				536CEA8026436A8F00BBB105 /* HomePage.swift */,
+				536CEA962643745300BBB105 /* Nav Bar */,
+				536CEB042654B48A00BBB105 /* Game Cards */,
+				536CEB3F26704ED300BBB105 /* Home */,
+				536CEB4026704EDD00BBB105 /* BetSlip */,
+				536CEB4226704F0000BBB105 /* MakeTake */,
+				536CEB482670501200BBB105 /* Social */,
+				536CEB4126704EEA00BBB105 /* Account */,
 			);
 			name = "Tab Views";
+			sourceTree = "<group>";
+		};
+		536CEA962643745300BBB105 /* Nav Bar */ = {
+			isa = PBXGroup;
+			children = (
+				536CEA972643746B00BBB105 /* NavigationBarView.swift */,
+				536CEA8B2643707700BBB105 /* LogoBar.swift */,
+				536CEAFE2654B18B00BBB105 /* SportsBar.swift */,
+			);
+			name = "Nav Bar";
+			sourceTree = "<group>";
+		};
+		536CEAA2264A122B00BBB105 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				536CEADF265440C300BBB105 /* ApiClient.swift */,
+				536CEAE4265440F200BBB105 /* SportsResponse.swift */,
+				536CEAEE2654906900BBB105 /* GamesResponse.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		536CEAC32653447800BBB105 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				536CEAE926547B9300BBB105 /* SportsViewModel.swift */,
+				536CEAF626549A0500BBB105 /* GamesViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		536CEACC265344E300BBB105 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		536CEB042654B48A00BBB105 /* Game Cards */ = {
+			isa = PBXGroup;
+			children = (
+				536CEB1C26559EEC00BBB105 /* GameCardView.swift */,
+				536CEB212655A7BE00BBB105 /* Card.swift */,
+			);
+			name = "Game Cards";
+			sourceTree = "<group>";
+		};
+		536CEB1026559E8F00BBB105 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				536CEACC265344E300BBB105 /* Models */,
+				536CEAC32653447800BBB105 /* ViewModels */,
+				5319FCEC25CB1A93005240F0 /* Tab Views */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		536CEB3F26704ED300BBB105 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5319FC6825A6AECC005240F0 /* HomeView.swift */,
+				536CEB272656F8DB00BBB105 /* EventView.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		536CEB4026704EDD00BBB105 /* BetSlip */ = {
+			isa = PBXGroup;
+			children = (
+				5319FCF225CB1ACE005240F0 /* BetSlipView.swift */,
+			);
+			name = BetSlip;
+			sourceTree = "<group>";
+		};
+		536CEB4126704EEA00BBB105 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				5319FCED25CB1ABA005240F0 /* AccountView.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		536CEB4226704F0000BBB105 /* MakeTake */ = {
+			isa = PBXGroup;
+			children = (
+				536CEB4326704F1F00BBB105 /* MakeTakeView.swift */,
+				536CEB6626706C9B00BBB105 /* MakeView.swift */,
+				536CEB6B26706CA900BBB105 /* TakeView.swift */,
+			);
+			name = MakeTake;
+			sourceTree = "<group>";
+		};
+		536CEB482670501200BBB105 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				536CEB492670502200BBB105 /* SocialView.swift */,
+			);
+			name = Social;
 			sourceTree = "<group>";
 		};
 		538590DE2575D05C0041CDCC = {
@@ -205,10 +343,14 @@
 			isa = PBXGroup;
 			children = (
 				538590EA2575D05C0041CDCC /* BetWithFriendsFirstApp.swift */,
+				538590EC2575D05C0041CDCC /* ContentView.swift */,
+				536CEAA2264A122B00BBB105 /* API */,
 				5319FC7525A7B94B005240F0 /* Firebase */,
 				535DF32D258863B3006F8057 /* BetWithFriendsFirst.entitlements */,
-				5319FCEC25CB1A93005240F0 /* Tab Views */,
+				536CEB1026559E8F00BBB105 /* Views */,
 				538590EE2575D05D0041CDCC /* Assets.xcassets */,
+				536CEB2F265C887A00BBB105 /* Colors.xcassets */,
+				536CEB37265C8BBB00BBB105 /* ColorManager.swift */,
 				53923FB52580573C008A45FA /* GoogleService-Info.plist */,
 				538590F32575D05D0041CDCC /* Info.plist */,
 				538590F02575D05D0041CDCC /* Preview Content */,
@@ -374,6 +516,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				538590F22575D05D0041CDCC /* Preview Assets.xcassets in Resources */,
+				536CEB30265C887A00BBB105 /* Colors.xcassets in Resources */,
 				538590EF2575D05D0041CDCC /* Assets.xcassets in Resources */,
 				53923FB62580573C008A45FA /* GoogleService-Info.plist in Resources */,
 			);
@@ -507,21 +650,38 @@
 			files = (
 				5319FCC625C8C4FA005240F0 /* FBAuthError.swift in Sources */,
 				5319FCAD25C8C4AD005240F0 /* FBFireStore.swift in Sources */,
+				536CEA8C2643707700BBB105 /* LogoBar.swift in Sources */,
 				5319FC6125A6AE64005240F0 /* LoginView.swift in Sources */,
+				536CEB4426704F1F00BBB105 /* MakeTakeView.swift in Sources */,
+				536CEB4A2670502200BBB105 /* SocialView.swift in Sources */,
 				5319FCEE25CB1ABA005240F0 /* AccountView.swift in Sources */,
+				536CEA982643746B00BBB105 /* NavigationBarView.swift in Sources */,
+				536CEB282656F8DB00BBB105 /* EventView.swift in Sources */,
+				536CEAFF2654B18B00BBB105 /* SportsBar.swift in Sources */,
+				536CEB222655A7BF00BBB105 /* Card.swift in Sources */,
 				5319FCB225C8C4BF005240F0 /* FBFireStoreError.swift in Sources */,
 				5319FC7D25A7B9C8005240F0 /* ForgotPasswordView.swift in Sources */,
 				5319FCCE25C9C7A0005240F0 /* SignInWithAppleView.swift in Sources */,
+				536CEAEA26547B9300BBB105 /* SportsViewModel.swift in Sources */,
+				536CEB38265C8BBB00BBB105 /* ColorManager.swift in Sources */,
+				536CEAE0265440C300BBB105 /* ApiClient.swift in Sources */,
 				538590ED2575D05C0041CDCC /* ContentView.swift in Sources */,
+				536CEA8126436A8F00BBB105 /* HomePage.swift in Sources */,
 				5319FC8225A7B9D5005240F0 /* SignInWithEmailView.swift in Sources */,
+				536CEAEF2654906900BBB105 /* GamesResponse.swift in Sources */,
 				5319FC6925A6AECC005240F0 /* HomeView.swift in Sources */,
+				536CEAE5265440F200BBB105 /* SportsResponse.swift in Sources */,
 				5319FC5C25A6AC0D005240F0 /* UserData.swift in Sources */,
+				536CEB6726706C9B00BBB105 /* MakeView.swift in Sources */,
 				5319FCF325CB1ACE005240F0 /* BetSlipView.swift in Sources */,
 				5319FC7125A7B461005240F0 /* UserViewModel.swift in Sources */,
 				5319FC8725A7B9E6005240F0 /* SignUpView.swift in Sources */,
+				536CEB6C26706CA900BBB105 /* TakeView.swift in Sources */,
 				538590EB2575D05C0041CDCC /* BetWithFriendsFirstApp.swift in Sources */,
+				536CEAF726549A0500BBB105 /* GamesViewModel.swift in Sources */,
 				5319FCC125C8C4F4005240F0 /* FBAuth.swift in Sources */,
 				5319FCBC25C8C4CD005240F0 /* FBUser.swift in Sources */,
+				536CEB1D26559EEC00BBB105 /* GameCardView.swift in Sources */,
 				5319FCB725C8C4C7005240F0 /* FBKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

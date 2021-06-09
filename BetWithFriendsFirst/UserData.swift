@@ -18,6 +18,7 @@ class UserData: ObservableObject {
     
     var authStateDidChangeListenerHandle: AuthStateDidChangeListenerHandle?
     
+    
     func configureFirabaseStateDidChange() {
         
         authStateDidChangeListenerHandle = Auth.auth().addStateDidChangeListener({ (_, user) in

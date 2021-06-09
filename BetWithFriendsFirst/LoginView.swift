@@ -14,21 +14,25 @@ struct LoginView: View {
     }
     @State private var showSheet = false
     @State private var action: Action?
+    @State private var temp = false
     
     var body: some View {
-        
+           
         VStack {
+                    
             SignInWithEmailView(showSheet: $showSheet, action: $action)
-            SignInWithAppleView().frame(width: 200, height: 50)
+            // SignInWithAppleView().frame(width: 200, height: 50)
             Spacer()
         }
-        .sheet(isPresented: $showSheet) {
-            if self.action == .signUp {
-                SignUpView()
-            } else {
-                ForgotPasswordView()
+            .background(Color("Background").edgesIgnoringSafeArea(.all))
+            .sheet(isPresented: $showSheet) {
+                if self.action == .signUp {
+                    SignUpView()
+                } else {
+                    ForgotPasswordView()
+                }
+                
             }
-        }
         
     }
 }

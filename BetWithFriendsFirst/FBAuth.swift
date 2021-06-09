@@ -110,7 +110,6 @@ struct FBAuth {
         
         let email = signInWithAppleResult.authDataResult.user.email ?? ""
         
-        
         let data = FBUser.dataDict(uid: uid,
                                          name: name,
                                          email: email)

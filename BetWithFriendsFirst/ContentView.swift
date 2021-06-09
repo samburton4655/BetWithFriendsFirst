@@ -20,7 +20,7 @@ struct ContentView: View {
             } else if userData.isUserAuthenticated == .signedOut {
                 LoginView()
             } else {
-                HomeView()
+                HomePage()
             }
         }
         .onAppear {

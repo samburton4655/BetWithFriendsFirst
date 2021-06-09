@@ -19,20 +19,29 @@ struct SignInWithEmailView: View {
     
     
     var body: some View {
-        
+            
         VStack {
+            
+            Image("Asset 17")
+                .resizable()
+                .frame(width: 260, height: 62)
+                .padding(.bottom, 30)
+            
             TextField("Email Address", text: self.$user.email)
                 .autocapitalization(.none)
                 .keyboardType(.emailAddress)
+                .padding(.horizontal, 38)
             SecureField("Password", text: $user.password)
+                .padding(.horizontal, 38)
             HStack {
                 Spacer()
                 Button(action: {
                     self.action = .resetPW
                     self.showSheet = true
-                    print(action)
                 }) {
                     Text("Forgot Password")
+                        .padding(.horizontal, 38)
+                        .foregroundColor(Color("myLime"))
                 }
             } // End HStack
             .padding(.bottom)
@@ -56,14 +65,14 @@ struct SignInWithEmailView: View {
                     Text("Login")
                         .padding(.vertical, 15)
                         .frame(width: 200)
-                        .background(Color.green)
+                        .background(Color("myLime"))
                         .cornerRadius(8)
                         .foregroundColor(.white)
                         .opacity(user.isLogInComplete ? 1 : 0.75)
                 }.disabled(!user.isLogInComplete)
-                
-                // SIGN UP
-                // ----------------
+//
+//                // SIGN UP
+//                // ----------------
                 Button(action: {
                     self.action = .signUp
                     self.showSheet = true
@@ -71,9 +80,13 @@ struct SignInWithEmailView: View {
                     Text("Sign Up")
                         .padding(.vertical, 15)
                         .frame(width: 200)
-                        .background(Color.blue)
+                        .background(Color("Background"))
                         .cornerRadius(8)
-                        .foregroundColor(.white)
+                        .foregroundColor(Color("myLime"))
+                        .overlay(
+                                    RoundedRectangle(cornerRadius: 8)
+                                        .stroke(Color("myLime"), lineWidth: 2)
+                                )
                 }
                 
             } // End VStack
@@ -91,8 +104,10 @@ struct SignInWithEmailView: View {
             
         } // End VStack
         .padding(.top, 100)
-        .frame(width: 300)
+        //.frame(width: 300)
         .textFieldStyle(RoundedBorderTextFieldStyle())
+        .background(Color("Background").edgesIgnoringSafeArea(.all))
+
         
     }
 }
