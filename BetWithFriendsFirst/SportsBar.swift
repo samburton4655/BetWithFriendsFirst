@@ -18,7 +18,7 @@ struct SportsBar: View {
                 
             HStack(spacing: 30) {
                 ForEach(sports, id: \.self) { data in
-                    NavigationLink(destination: EventView()) {
+                    NavigationLink(destination: LeagueView(league: data)) {
                         Text(data)
                             .foregroundColor(Color("myLime"))
                     }

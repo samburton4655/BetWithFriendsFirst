@@ -58,7 +58,7 @@ final class ApiClient {
             "x-rapidapi-host": "therundown-therundown-v1.p.rapidapi.com"
         ]
 
-        let request = NSMutableURLRequest(url: NSURL(string: "https://therundown-therundown-v1.p.rapidapi.com/sports/4/events/2021-05-19?offset=240")! as URL,
+        let request = NSMutableURLRequest(url: NSURL(string: "https://therundown-therundown-v1.p.rapidapi.com/sports/3/events/2021-06-14?offset=240")! as URL,
                                                 cachePolicy: .useProtocolCachePolicy,
                                             timeoutInterval: 10.0)
         request.httpMethod = "GET"
@@ -83,4 +83,38 @@ final class ApiClient {
 
         dataTask.resume()
     }
+    
+    // New API
+    func gamesData(completion: @escaping (AllGamesResponse?) -> Void) {
+        let headers = [
+            "x-rapidapi-key": key,
+            "x-rapidapi-host": "sportspage-feeds.p.rapidapi.com"
+        ]
+
+        let request = NSMutableURLRequest(url: NSURL(string: "https://sportspage-feeds.p.rapidapi.com/games")! as URL,
+                                                cachePolicy: .useProtocolCachePolicy,
+                                            timeoutInterval: 10.0)
+        request.httpMethod = "GET"
+        request.allHTTPHeaderFields = headers
+
+        let session = URLSession.shared
+        let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
+            if (error != nil) {
+                print(error)
+            } else {
+                let httpResponse = response as? HTTPURLResponse
+                print(httpResponse)
+                // TODO status code validation
+                
+                if let data = data {
+                    if let result = try? self.decoder.decode(AllGamesResponse.self, from: data) {
+                        completion(result)
+                    }
+                }
+            }
+        })
+
+        dataTask.resume()
+    }
+    
 }

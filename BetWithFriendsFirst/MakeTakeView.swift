@@ -19,7 +19,7 @@ struct MakeTakeView: View {
                 NavigationBarView()
                     .padding(.top)
                     .padding(.bottom, 20)
-                    .navigationBarTitle(Text("Search Movie Stars"), displayMode: .inline)
+                    .navigationBarTitle(Text(" "), displayMode: .inline)
                     .navigationBarHidden(true)
                 
                 HStack(alignment: .center) {

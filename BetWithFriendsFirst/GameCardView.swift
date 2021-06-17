@@ -9,23 +9,26 @@ import SwiftUI
 
 struct GameCardView: View {
     
-    @StateObject var viewModelGames = GamesViewModel()
+    @StateObject var viewModelGames = AllGamesViewModel()
     
     var body: some View {
         
-        VStack {
-            Text("Games Today")
-                .font(.largeTitle)
-                .foregroundColor(Color.white)
-            
-            ForEach(viewModelGames.event) {
-                Card(teams: $0.teamsNormalized, time: $0.eventDate)
-                    .padding(.bottom)
+        Text("Games Today")
+            .font(.largeTitle)
+            .foregroundColor(Color.white)
+            .padding(.bottom, 10)
+        
+        ScrollView {
+            VStack {
+                ForEach(viewModelGames.game) {
+                    Card(game: $0)
+                        //.padding(.bottom)
+                }
+            } // VStack
+            .onAppear {
+                viewModelGames.loadData()
             }
-        } // VStack
-//        .onAppear {
-//            viewModelGames.loadData()
-//        }
+        } // ScrollView
         
     }
     

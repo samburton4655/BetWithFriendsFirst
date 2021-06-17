@@ -16,15 +16,6 @@ struct NavigationBarView: View {
         
         HStack {
             
-//            Button(action: {
-//                
-//            }) {
-//                Image(systemName: "magnifyingglass")
-//                    .font(.title)
-//                    .foregroundColor(.black)
-//                    .padding(.horizontal, 10)
-//            }
-//            
             Spacer()
             
             LogoBar()

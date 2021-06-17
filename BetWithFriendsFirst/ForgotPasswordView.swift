@@ -52,6 +52,7 @@ struct ForgotPasswordView: View {
                       self.presentationMode.wrappedValue.dismiss()
                       })
             }
+            //.background(Color("Background"))
         }
     }
 }

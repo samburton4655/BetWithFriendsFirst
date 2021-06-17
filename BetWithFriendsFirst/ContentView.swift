@@ -24,7 +24,7 @@ struct ContentView: View {
             }
         }
         .onAppear {
-            self.userData.configureFirabaseStateDidChange()
+            self.userData.configureFirebaseStateDidChange()
         }
         
     }

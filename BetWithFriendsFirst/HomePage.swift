@@ -13,6 +13,7 @@ struct HomePage: View {
         UITabBar.appearance().barTintColor = UIColor.darkGray
         UITabBar.appearance().unselectedItemTintColor = UIColor.lightGray
         UITabBar.appearance().tintColor = UIColor.green
+        UINavigationBar.appearance().barTintColor = UIColor.darkGray
     }
     
     var body: some View {

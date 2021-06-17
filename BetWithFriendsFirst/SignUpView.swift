@@ -77,7 +77,9 @@ struct SignUpView: View {
                 .navigationBarItems(trailing: Button("Dismiss") {
                     self.presentationMode.wrappedValue.dismiss()
                 })
+            //.background(Color("Background"))
         }
+    
     }
 }
 

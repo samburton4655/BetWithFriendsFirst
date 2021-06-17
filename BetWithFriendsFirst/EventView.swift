@@ -11,17 +11,29 @@ struct EventView: View {
     
     @EnvironmentObject var userData: UserData
     
-    @StateObject var viewModelSports = SportsViewModel()
-    @StateObject var viewModelGames = GamesViewModel()
-    
+    @State var game: Game
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 0) {
+            
+            Text(game.teams.home.team)
+                .foregroundColor(.white)
+                .font(.system(size: 24.0))
+            Text("VS")
+                .foregroundColor(Color("myLime"))
+            Text(game.teams.away.team)
+                .foregroundColor(.white)
+                .font(.system(size: 24.0))
+            
+            MakeTakeButton()
+                .padding(.top, 10)
+                
+            Spacer()
+            
+        } // VStack
+        .frame(width: UIScreen.main.bounds.width)
+        .background(Color("Background").edgesIgnoringSafeArea(.all))
+        .padding()
     }
-}
-
-struct EventView_Previews: PreviewProvider {
-    static var previews: some View {
-        EventView()
-    }
+    
 }

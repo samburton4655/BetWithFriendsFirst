@@ -8,8 +8,36 @@
 import SwiftUI
 
 struct MakeView: View {
+    
+    @EnvironmentObject var userData: UserData
+    
+    @State private var teamName1 = ""
+    @State var selectedLeague = ""
+    var leagues = ["MLB", "NBA"]
+    
     var body: some View {
-        Text("Make a bet")
+        
+        VStack(spacing: 0) {
+        
+            Form {
+                Section {
+                    Picker("League", selection: $selectedLeague) {
+                        ForEach(leagues, id: \.self) {
+                            Text($0)
+                        }
+                    }
+                }
+                
+                Section {
+                    Text("temp")
+                }
+            }
+            .background(Color("Background"))
+            
+            Spacer()
+            
+        } // VStack
+        .background(Color("Background"))
     }
 }
 

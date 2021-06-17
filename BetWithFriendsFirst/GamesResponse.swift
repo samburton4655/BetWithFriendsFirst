@@ -32,7 +32,7 @@ struct Event: Codable, Identifiable {
         case teamsNormalized = "teams_normalized"
         case teams
     }
-    
+
 }
 
 struct Teams: Codable, Identifiable {

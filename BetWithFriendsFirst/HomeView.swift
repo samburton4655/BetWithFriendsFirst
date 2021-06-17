@@ -13,7 +13,7 @@ struct HomeView: View {
     @EnvironmentObject var userData: UserData
     
     @StateObject var viewModelSports = SportsViewModel()
-    @StateObject var viewModelGames = GamesViewModel()
+    @StateObject var viewModelGames = AllGamesViewModel()
     
     var body: some View {
         
@@ -32,18 +32,9 @@ struct HomeView: View {
                 GameCardView()
                 
                 Spacer()
-                            
-                ForEach(viewModelGames.event) {
-                    Text($0.eventDate)
-                }
-                
-                Spacer()
                                 
             } // VStack
             .background(Color("Background").edgesIgnoringSafeArea(.all))
-//                .onAppear {
-//                    viewModelGames.loadData()
-//                }
 
         } // NavigationView
 
